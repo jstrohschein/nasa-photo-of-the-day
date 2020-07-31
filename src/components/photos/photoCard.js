@@ -4,7 +4,7 @@ import React from 'react'
 
 const PhotoCard = (props) => {
 
-
+  //return card
   return (
 
     <div className='photo_card'>
