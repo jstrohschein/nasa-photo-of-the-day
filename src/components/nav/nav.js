@@ -1,4 +1,6 @@
 import React from 'react'
+import { Button, ButtonGroup } from 'reactstrap';
+
 
 
 
@@ -7,7 +9,10 @@ const Nav = () => {
   return (
 
     <div>
-      <h2>Nav</h2>
+      <ButtonGroup>
+        <Button>Previous</Button>
+        <Button>Next</Button>
+      </ButtonGroup>
     </div>
 
   )
